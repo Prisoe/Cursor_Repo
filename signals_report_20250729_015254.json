@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-07-29T01:52:54.924294",
+  "analysis_duration_seconds": 17.268472,
+  "summary": {
+    "total_stocks_analyzed": 20,
+    "signals_generated": 1,
+    "avg_confidence": 0.487,
+    "avg_risk_reward": 2.0,
+    "buy_signals": 1,
+    "sell_signals": 0,
+    "total_risk_amount": 299.53,
+    "total_position_value": 9984.24
+  },
+  "signals": [
+    {
+      "symbol": "NKE",
+      "strategy": "Premarket Momentum",
+      "signal_type": "BUY",
+      "confidence": 0.487,
+      "current_price": 79.24,
+      "entry_price": 79.24,
+      "stop_loss": 76.86,
+      "take_profit": 83.99,
+      "risk_reward_ratio": 2.0,
+      "gap_percent": 3.89,
+      "reasoning": "Premarket momentum +3.9% with volume",
+      "position_sizing": {
+        "shares": 126,
+        "position_value": 9984.24,
+        "position_percent": 10.0,
+        "risk_amount": 299.53,
+        "potential_profit": 599.05,
+        "potential_loss": 299.53
+      },
+      "volume_info": {
+        "current_volume": 22584558,
+        "avg_volume": 16831867,
+        "volume_ratio": 1.34
+      }
+    }
+  ],
+  "config": {
+    "max_risk_per_trade": 0.02,
+    "min_risk_reward_ratio": 2.0,
+    "gap_threshold_percent": 3.0,
+    "volume_threshold_multiplier": 2.0
+  }
+}
